@@ -1,0 +1,22 @@
+.body {
+  background-color: rgba(208, 183, 196, 0.649);
+  font-family: sans-serif;
+}
+a:link {
+  color: red;
+}
+a:visted {
+  color: purple;
+}
+p {
+  color: rgb(1, 8, 8);
+}
+.button {
+  cursor: none;
+}
+.headline {
+  font-size: 180px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
