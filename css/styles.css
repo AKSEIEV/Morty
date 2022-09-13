@@ -1,12 +1,12 @@
 .body {
-  background-color: rgba(208, 183, 196, 0.649);
-  font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0.649);
+  font-family: "Open sans" sans-serif;
 }
 a:link {
-  color: red;
+  color: rgb(0, 204, 255);
 }
 a:visted {
-  color: purple;
+  color: rgb(0, 126, 128);
 }
 p {
   color: rgb(1, 8, 8);
