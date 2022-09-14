@@ -1,18 +1,18 @@
-.body {
+body {
   background-color: rgba(255, 255, 255, 0.649);
   font-family: "Open sans" sans-serif;
 }
-a:link {
-  color: rgb(0, 204, 255);
-}
-a:visted {
-  color: rgb(0, 126, 128);
+
+a:hover {
+  color: #65da2a;
 }
 p {
   color: rgb(1, 8, 8);
 }
 .button {
   cursor: none;
+  background-color: #2f71d4;
+  color: rgb(240, 248, 255);
 }
 .headline {
   font-size: 180px;
