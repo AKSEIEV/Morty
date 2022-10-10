@@ -325,13 +325,11 @@ margin-top: 28px;
 }
 
 /* -------------------------------------h1------------- */
-.title-main-big {
+
+  .area {
   line-height: 1.36;
   max-width: 696px;
   margin: 0 auto;
-
-}
-  .area {
   text-align: center;
   font-size: 6.5em;
   color: #fff;
