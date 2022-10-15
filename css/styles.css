@@ -246,19 +246,6 @@ margin-top: 28px;
   text-align: center;
 }
 
-/* .list-antena::before {
-  content:"";
-  display: block;
-  height: 120px;
-  margin-bottom: 30px;
-  background: #F5F4FA;
-  background-image: url(../img/icons.svg/antena.svg);
-  background-size: 65px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  
-} */
-/* margin-right: vidstypu mig IMG */
 
 .working {
   padding-top: 94px;
@@ -334,7 +321,7 @@ margin-top: 28px;
   font-size: 6.5em;
   color: #fff;
   /* letter-spacing: -7px; */
-  font-weight: 700;
+  font-weight: 800px;
   text-transform: uppercase;
   animation: blur .75s ease-out infinite;
   text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
@@ -363,26 +350,13 @@ margin-top: 28px;
   }
 }
 
-}
 
 .header {
   background: #2f303a;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  /* max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 1px solid black;
-  background-image: linear-gradient(
-    to right,
-     rgba(47, 48, 58, 0.4)
-     ),
-url("../img/fon/fon.jpg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover; */
+
 }
 
 .overlay {
@@ -408,19 +382,17 @@ background-size: cover; */
   position: absolute;
   bottom: 75px;
   left: 50px;
-  width: 100px;
-  height: 100px;
-  color: var(--top-color);
-  /* background-color: #f5f4fa; */
-  background-image: url(../img/mortimortifuck.svg#icon-morty_fuck);
+  width: 111px;
+  height: 111px;
   border: var(--big-fon-color);
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   font-family: inherit;
   cursor: pointer;
   letter-spacing: 0.06em;
-  border-radius: 4px;
+  border-radius: 50%;
+  background-color: #d06070;
+  color: #fff;
   
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -430,6 +402,10 @@ background-size: cover; */
   animation-iteration-count:infinite;
   animation-direction:alternate;
   animation-fill-mode:backwards;
+}
+
+.morty-icon-svg {
+  fill: black;
 }
 
 @keyframes krytilka {
@@ -636,16 +612,6 @@ footer {
   list-style: none;
 }
 
-/* .tehnokryak::before {
-  position: absolute;
-  display: block;
-  content: "";
-  max-width: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(33, 150, 243, 0.9);
-  opacity: 1;
-}  */
 
 .box {
   width: 370px;
@@ -722,7 +688,7 @@ footer {
   --text-color: #757575;
   --top-color: #212121;
   --big-fon-color: #ffffff;
-  --acent-color: #2196f3;
+  --acent-color: #4ef151;
 }
 
 ul {
